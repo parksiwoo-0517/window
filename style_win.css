@@ -1,0 +1,264 @@
+body {
+	overflow: hidden;
+}
+h1 {
+	text-align: center;
+}
+li {
+	list-style: none;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.win01 {
+	position: absolute;
+	width: 17%;
+	height: 9%;
+	left: 1%;
+	top: 28%;
+	background-image: url("images/win01.jpg");
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+.dow01 {
+	position: absolute;
+	width: 80%;
+	height: 70%;
+	left: 13%;
+	top: 15%;
+	background-image: url("images/win01.jpg");
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+.dow01:hover {
+	background-image: url("images/dow01.jpeg");
+}
+
+.win02 {
+    position: absolute;
+    width: 42%; 
+    height: 56%;
+    left: 3%;
+    bottom: 2%;
+    background-image: url("images/win02.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win02:hover {
+    background-image: url("images/win02c.jpeg");
+}
+
+.win03 {
+    position: absolute;
+    width: 35%; 
+    height: 27%;
+    left: 12%;
+    top: 10%;
+    background-image: url("images/win03.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win03:hover {
+    background-image: url("images/win03c.jpeg");
+}
+.weather {
+	position: absolute;
+	width: 80%;
+	height: 70%;
+	left: 25%;
+	top: 20%;
+	background-image: url(images/dow03.jpeg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-image 0.2s ease-in-out;
+}
+.weather:hover {
+  /* 마우스 오버 시 변경될 이미지 파일 경로를 지정 (이미지2) */
+  background-image: url('images/win03c.jpeg'); 
+}
+
+.win04 {
+    position: absolute;
+    width: 25%; 
+    height: 36%;
+    left: 23%;
+    top: 39%;
+    background-image: url("images/win04.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win04:hover {
+    background-image: url("images/win04c.jpeg");
+}
+
+.win05 {
+    position: absolute;
+    width: 30%; 
+    height: 18%;
+    left: 22%;
+    bottom: 4%;
+    background-image: url("images/win05.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win05:hover {
+    background-image: url("images/win05c.jpg");
+}
+.win06 {
+    position: absolute;
+    width: 30%; 
+    height: 45%;
+    left: 34%;
+    top: 12%;
+    background-image: url("images/win06.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win06:hover {
+    background-image: url("images/win06c.jpg");
+}
+.win07 {
+    position: absolute;
+    width: 30%; 
+    height: 18%;
+    left: 35%;
+    bottom: 23%;
+    background-image: url("images/win07.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win07:hover {
+    background-image: url("images/win07c.jpg");
+}
+
+.win08 {
+    position: absolute;
+    width: 30%; 
+    height: 20%;
+    right: 17%;
+    top: 14%;
+    background-image: url("images/win08.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win08:hover {
+    background-image: url("images/win08c.jpeg");
+}
+
+.win09 {
+    position: absolute;
+    width: 20%; 
+    height: 15%;
+    right: 27%;
+    top: 36%;
+    background-image: url("images/win09.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win09:hover {
+    background-image: url("images/win09c.jpg");
+}
+.win10 {
+    position: absolute;
+    width: 40%; 
+    height: 40%;
+    right: 11.5%;
+    bottom: 2%;
+    background-image: url("images/win10.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win10:hover {
+    background-image: url("images/win10c.jpg");
+}
+
+.win11 {
+    position: absolute;
+    width: 30%; 
+    height: 25%;
+    left: 78%;
+    top: 10%;
+    background-image: url("images/win11.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win11:hover {
+    background-image: url("images/win11c.jpeg");
+}
+.dow11 {
+	position: absolute;
+	width: 80%;
+	height: 70%;
+	left: 24%;
+	top: 20%;
+	background-image: url("images/dow11.jpeg");
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+.dow11:hover {
+	background-image: url("images/win11c.jpeg");
+
+}
+
+.win12 {
+    position: absolute;
+    width: 30%; 
+    height: 20%;
+    right: 5%;
+    top: 36%;
+    background-image: url("images/win12.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win12:hover {
+    background-image: url("images/win12c.jpg");
+}
+
+.win13 {
+    position: absolute;
+    width: 15%; 
+    height: 10%;
+    left: 85%;
+    top: 57%;
+    background-image: url("images/win13.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win13:hover {
+    background-image: url("images/win13c.jpeg");
+}
+.Description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2%;
+    width: 60%;
+    height: 6%;
+    border: 4px inset black;
+    margin: 0 auto;
+}
+.ex {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 8px inset #cfcfcf;
+    justify-content: center;
+    align-items: center;
+    word-break: keep-all;
+}
+
+.win14 {
+    position: absolute;
+    width: 16%; 
+    height: 29%;
+    left: 90%;
+    bottom: 3%;
+    background-image: url("images/win14.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.win14:hover {
+    background-image: url("images/win14c.jpeg");
+}
